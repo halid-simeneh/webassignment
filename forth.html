@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto; 
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex; 
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #333; 
+    color: white;
+    border-bottom: 5px solid #007bff; 
+}
+
+.logo-img {
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 15px;
+    border: 3px solid white;
+}
+
+.header-info h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.main-content {
+    display: flex; 
+    min-height: 80vh;
+}
+
+
+.sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #e9ecef; 
+    border-right: 1px solid #ccc;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #aaa;
+    padding-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.sidebar ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.sidebar li a:hover {
+    background-color: #007bff; 
+    color: white;
+    border-color: #007bff;
+}
+
+.profile {
+    flex-grow: 1; 
+    padding: 20px;
+}
+
+.profile h2 {
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="profile-logo">
+                <img src="halid7.jpg" alt="Your Profile Picture" class="logo-img">
+            </div>
+            <div class="header-info">
+                <h1>Your Name and ID</h1>
+                <p>Welcome to my professional profile.</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            
+            <nav class="sidebar">
+                <h2>Labs & Assignments</h2>
+                <ul>
+                    <li><a href="lab1.html">lab1</a></li>
+                    <li><a href="lab2.html">lab2</a></li>
+                    <li><a href="lab3.html">lab3</a></li>
+                    <li><a href="assignment1.html">Assignment1</a></li>
+                    <li><a href="lab4.html">lab4</a></li>
+
+                    <li>...</li>
+                </ul>
+            </nav>
+            
+            <section class="profile">
+                <h2>Your Profile</h2>
+                <p>This is where you'll put all the information about yourself: your bio, skills, education, and interests.</p>
+                <p>Use this space to make a great first impression!</p>
+            </section>
+
+        </main>
+
+    </div>
+</body>
+</html>
